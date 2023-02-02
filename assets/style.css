@@ -1,7 +1,71 @@
-section {
-    border: 10px solid black;
+html {
+  background: url(background.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-color: black;
 }
 
-ul {
-    list-style-type: circle;
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.container {
+  width: fit-content;
+  position: relative;
+  text-align: center;
+  border: 5px solid rgba(75, 65, 65, 0.6);
+  border-radius: 5px;
+  background-color: rgba(75, 65, 65, 0.6);
+  margin: auto;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.fixedHF {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  background-color: rgba(75, 65, 65, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#colorin {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+#colorin:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+#caption {
+  width:fit-content;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: 2px;
+  color: yellow;
+  font-size: 10px;
+  font-style: italic;
+  border: 2px ridge rgba(212, 212, 46, 0.6);
+  border-radius: 5px;
 }
