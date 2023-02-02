@@ -1,7 +1,7 @@
 html {
-  background: url(background.jpg) no-repeat center fixed;
-  background-size: cover;
   background-color: black;
+  background-size: cover;
+  background: url(background.jpg) no-repeat center fixed;
 }
 
 * {
@@ -22,25 +22,25 @@ footer {
 }
 
 .container {
-  width: fit-content;
-  position: relative;
-  text-align: center;
+  background-color: rgba(75, 65, 65, 0.6);
   border: 5px solid rgba(75, 65, 65, 0.6);
   border-radius: 5px;
-  background-color: rgba(75, 65, 65, 0.6);
+  color: rgb(255, 255, 255);
   margin: auto;
   margin-top: 30px;
-  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  width: fit-content;
 }
 
 .fixedHF {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  text-align: right;
-  font-size: 16px;
   background-color: rgba(75, 65, 65, 0.6);
   color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  left: 0;
+  position: fixed;
+  text-align: right;
+  width: 100%;
 }
 
 #colorin {
@@ -58,14 +58,14 @@ footer {
 }
 
 #caption {
-  width:fit-content;
-  position: relative;
-  text-align: center;
-  margin: auto;
-  padding: 2px;
+  border: 2px ridge rgba(212, 212, 46, 0.6);
+  border-radius: 5px;
   color: yellow;
   font-size: 10px;
   font-style: italic;
-  border: 2px ridge rgba(212, 212, 46, 0.6);
-  border-radius: 5px;
+  margin: auto;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
 }
